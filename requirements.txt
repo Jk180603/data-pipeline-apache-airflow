@@ -1,0 +1,7 @@
+apache-airflow
+pandas
+openpyxl
+psycopg2-binary
+sqlalchemy
+pytest
+pyyaml

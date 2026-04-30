@@ -21,6 +21,7 @@ transform_data → data_quality → analytics → load_to_postgres
 
 The pipeline processes more than 500K records, removes invalid data, generates structured outputs, and prepares the data for further business analysis. The final outputs include cleaned datasets, analytics CSV files, and PostgreSQL tables that can be directly queried.
 
+## How to run this project:
 To run the project locally, Docker Compose is used to start PostgreSQL and Airflow services. After starting the containers, the Airflow UI can be accessed at:
 
 http://localhost:8080
